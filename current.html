@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Journey</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="skip"><a href="#content">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="childhood.html">Childhood</a></li>
+                <li><a href="school-years.html">School Years</a></li>
+                <li><a href="current.html" class="active">Current Favorites</a></li>
+            </ul>
+        </nav>
+        <h1>My Game Journey</h1>
+    </header>
+
+
+    <main id="content">
+        <section class="intro">
+            <h2>Games I Play Now</h2>
+            <p>
+                These days, I still enjoy diving into massive AAA titles, but I’ve also found a lot of joy in casual,
+                party, and indie games. Whether it’s a long solo quest or a quick multiplayer round with friends, I love
+                games that bring people together and offer creative experiences.
+            </p>
+        </section>
+
+        <section class="masonry-grid">
+            <img
+            src="images/black-myth-wukong.png"
+            alt="Black Myth: Wukong"
+            class="lightbox-trigger"
+            data-title="Black Myth: Wukong"
+            data-description="An action game inspired by Chinese mythology and Journey to the West."
+            >
+            <img
+              src="images/elden-ring.png"
+              alt="Elden Ring"
+              class="lightbox-trigger"
+              data-title="Elden Ring"
+              data-description="A brutal yet beautiful open‑world action RPG that rewards exploration and perseverance."
+            >
+            <img
+            src="images/dave-the-diver.png"
+            alt="Dave the Diver"
+            class="lightbox-trigger"
+            data-title="Dave the Diver"
+            data-description="A relaxing diving adventure by day, and sushi bar simulator by night."
+            >
+            <img
+            src="images/forza-horizon.png"
+            alt="Forza Horizon 5"
+            class="lightbox-trigger"
+            data-title="Forza Horizon 5"
+            data-description="Stunning open‑world driving across Mexico with realistic cars and arcade fun."
+            >
+            <img
+              src="images/cyberpunk.png"
+              alt="Cyberpunk 2077"
+              class="lightbox-trigger"
+              data-title="Cyberpunk 2077"
+              data-description="A futuristic RPG set in Night City, filled with style, stories, and cyber‑enhancements."
+            >
+            <img
+            src="images/brotato.png"
+            alt="Brotato"
+            class="lightbox-trigger"
+            data-title="Brotato"
+            data-description="A fast‑paced roguelike shooter starring a potato with way too many weapons."
+            >
+            <img
+              src="images/palworld.png"
+              alt="Palworld"
+              class="lightbox-trigger"
+              data-title="Palworld"
+              data-description="A wild mix of creature‑collecting, survival, and open‑world exploration."
+            >
+            <img
+              src="images/draw-and-guess.png"
+              alt="Draw &amp; Guess"
+              class="lightbox-trigger"
+              data-title="Draw &amp; Guess"
+              data-description="A hilarious party game where your drawing skills (or lack thereof) lead to big laughs."
+            >
+            <img
+            src="images/terraria.png"
+            alt="Terraria"
+            class="lightbox-trigger"
+            data-title="Terraria"
+            data-description="A pixelated sandbox filled with crafting, building, and endless creativity."
+            >
+            <img
+              src="images/raft.png"
+              alt="Raft"
+              class="lightbox-trigger"
+              data-title="Raft"
+              data-description="Survive the ocean with friends—build, scavenge, and watch out for sharks."
+            >
+            <img
+              src="images/gtav.png"
+              alt="GTA V"
+              class="lightbox-trigger"
+              data-title="GTA V"
+              data-description="A modern classic—chaotic, cinematic, and always full of surprises."
+            >
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> My Game Journey</p>
+        <p>All game images and titles are property of their respective owners.</p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

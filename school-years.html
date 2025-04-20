@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Journey</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="skip"><a href="#content">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="childhood.html">Childhood</a></li>
+                <li><a href="school-years.html" class="active">School Years</a></li>
+                <li><a href="current.html">Current Favorites</a></li>
+            </ul>
+        </nav>
+        <h1>My Game Journey</h1>
+    </header>
+
+
+    <main id="content">
+        <section class="intro">
+            <h2>Middle & High School Games</h2>
+            <p>As I moved into middle and high school, I finally had my own laptop—and with it, access to a whole new
+                world of single-player, story-driven games. This was the era where I fell in love with open-world
+                exploration, cinematic storytelling, and action-packed missions. These games weren’t just
+                entertainment—they were immersive experiences that stuck with me for years.</p>
+        </section>
+
+        <section class="masonry-grid">
+            <img 
+            src="images/rdr.png" 
+            alt="Red Dead Redemption 2" 
+            class="lightbox-trigger"
+            data-title="Red Dead Redemption 2"
+            data-description="An epic Western adventure with breathtaking visuals and a powerful story of loyalty and loss."
+            >
+            <img 
+            src="images/tomb-raider.png" 
+            alt="Tomb Raider series" 
+            class="lightbox-trigger"
+            data-title="Tomb Raider series"
+            data-description="Follow Lara Croft through ancient tombs, deadly puzzles, and high‑stakes survival."
+            >
+            <img 
+            src="images/saints-row.png" 
+            alt="Saints Row series" 
+            class="lightbox-trigger"
+            data-title="Saints Row series"
+            data-description="Chaotic, over‑the‑top open‑world fun with a rebellious twist."
+            >
+            <img 
+            src="images/cod.png" 
+            alt="Call of Duty series" 
+            class="lightbox-trigger"
+            data-title="Call of Duty series"
+            data-description="Fast‑paced shooting, iconic campaigns, and intense multiplayer matches."
+            >
+            <img 
+            src="images/mafia.png" 
+            alt="Mafia series" 
+            class="lightbox-trigger"
+            data-title="Mafia series"
+            data-description="Step into the world of organized crime with rich narratives and atmospheric cityscapes."
+            >
+            <img 
+            src="images/nfs.png" 
+            alt="Need for Speed series" 
+            class="lightbox-trigger"
+            data-title="Need for Speed series"
+            data-description="High‑speed races, slick cars, and the thrill of escaping the cops."
+            >
+            <img 
+            src="images/sleepingdogs.png" 
+            alt="Sleeping Dogs" 
+            class="lightbox-trigger"
+            data-title="Sleeping Dogs"
+            data-description="A Hong Kong‑set undercover cop game blending martial arts, gunplay, and a gripping storyline."
+            >
+            <img 
+            src="images/watch-dogs.png" 
+            alt="Watch Dogs series" 
+            class="lightbox-trigger"
+            data-title="Watch Dogs series"
+            data-description="Hack the city, control the system—open‑world gameplay with a tech twist."
+            >
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> My Game Journey</p>
+        <p>All game images and titles are property of their respective owners.</p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

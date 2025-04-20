@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Journey</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="skip"><a href="#content">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="childhood.html">Childhood</a></li>
+                <li><a href="school-years.html">School Years</a></li>
+                <li><a href="current.html">Current Favorites</a></li>
+            </ul>
+        </nav>
+        <h1>My Game Journey</h1>
+    </header>
+
+    <main id="content">
+        <section class="intro">
+            <h2>My Gaming Evolution</h2>
+            <p>I've loved video games since I was very young and became fascinated by the charm of this highly interactive form of entertainment. I mainly play games on my computer and phone. Starting at the age of eight, I used my dad’s old Dell laptop to play mini-games and browser games on ad-filled websites. In middle school, I got my first phone and began exploring mobile games. Unlike browser games, mobile games were generally simpler and more lightweight, but their motion-based designs—like tilting the screen to steer in racing games—really captivated me. By high school, I had my own laptop and started diving deeper into single-player and large-scale games, many of which offered immersive experiences and unforgettable memories.</p>
+        </section>
+        
+        <!-- Red Dead Redemption 2 -->
+        <section class="feature-showcase">
+            <h3>Red Dead Redemption 2</h3>
+            
+            <img src="images/rdr2-main.png" alt="Red Dead Redemption 2" class="lightbox-trigger main-feature-img">
+            
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="images/rdr2-story.webp" alt="RDR2 story moment" class="lightbox-trigger">
+                    <p class="feature-point">Cinematic storytelling with complex characters</p>
+                </div>
+                <div class="feature-item">
+                    <img src="images/rdr2-world.webp" alt="RDR2 open world" class="lightbox-trigger">
+                    <p class="feature-point">Living world that reacts to your actions</p>
+                </div>
+                <div class="feature-item">
+                    <img src="images/rdr2-npc.avif" alt="RDR2 NPC interactions" class="lightbox-trigger">
+                    <p class="feature-point">NPCs remember your behavior over time</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Terraria -->
+        <section class="feature-showcase">
+            <h3>Terraria</h3>
+            
+            <img src="images/terraria-main.png" alt="Terraria" class="lightbox-trigger main-feature-img">
+            
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="images/terraria-building.png" alt="Terraria building" class="lightbox-trigger">
+                    <p class="feature-point">Limitless creative building possibilities</p>
+                </div>
+                <div class="feature-item">
+                    <img src="images/terraria-exploration.png" alt="Terraria exploration" class="lightbox-trigger">
+                    <p class="feature-point">Diverse biomes with unique treasures</p>
+                </div>
+                <div class="feature-item">
+                    <img src="images/terraria-mods.png" alt="Terraria mods" class="lightbox-trigger">
+                    <p class="feature-point">Vibrant modding community extends gameplay</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Hades -->
+        <section class="feature-showcase">
+            <h3>Hades Series</h3>
+            
+            <img src="images/hades-main.png" alt="Hades" class="lightbox-trigger main-feature-img">
+            
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="images/hades-combat.webp" alt="Hades combat" class="lightbox-trigger">
+                    <p class="feature-point">Addictive roguelike mechanics</p>
+                </div>
+                <div class="feature-item">
+                    <img src="images/hades-art.webp" alt="Hades art style" class="lightbox-trigger">
+                    <p class="feature-point">Gorgeous hand-drawn art style</p>
+                </div>
+                <div class="feature-item">
+                    <img src="images/hades-story.avif" alt="Hades narrative" class="lightbox-trigger">
+                    <p class="feature-point">A creative take on Greek mythology</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> My Game Journey</p>
+        <p>All game images and titles are property of their respective owners.</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" alt="lightbox" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

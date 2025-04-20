@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Journey</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="skip"><a href="#content">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="childhood.html" class="active">Childhood</a></li>
+                <li><a href="school-years.html">School Years</a></li>
+                <li><a href="current.html">Current Favorites</a></li>
+            </ul>
+        </nav>
+        <h1>My Game Journey</h1>
+    </header>
+
+    <main id="content">
+        <!-- Similar structure as homepage with this content -->
+        <section class="intro">
+            <h2>Elementary School Adventures</h2>
+            <p>When I was in elementary school, I spent countless joyful hours exploring colorful, quirky online games.
+                Most were free browser games from popular Chinese platforms. Though simple, they sparked my imagination
+                and introduced me to digital interaction.</p>
+        </section>
+
+        <section class="masonry-grid">
+            <img
+              src="images/seer.webp"
+              alt="赛尔号 (Seer)"
+              class="lightbox-trigger"
+              data-title="赛尔号 (Seer)"
+              data-description="A sci-fi adventure where I captured and trained alien creatures for space missions."
+            >
+            <img
+              src="images/qqfarm.png"
+              alt="QQ Farm"
+              class="lightbox-trigger"
+              data-title="QQ Farm"
+              data-description="Relaxing farming with crops to plant, harvest, and occasionally &quot;borrow&quot; from friends."
+            >
+            <img
+              src="images/pvz.png"
+              alt="Plants vs. Zombies"
+              class="lightbox-trigger"
+              data-title="Plants vs. Zombies"
+              data-description="Legendary tower defense with plants protecting my house from zombie waves."
+            >
+            <img
+              src="images/ddt.png"
+              alt="弹弹堂 (DDTank)"
+              class="lightbox-trigger"
+              data-title="弹弹堂 (DDTank)"
+              data-description="Turn-based shooting with cute characters, power-ups, and strategic angles."
+            >
+            <img
+              src="images/fbwg.png"
+              alt="Fireboy and Watergirl"
+              class="lightbox-trigger"
+              data-title="Fireboy and Watergirl"
+              data-description="Cooperative puzzle-platformer teaching teamwork through elemental temples."
+            >
+            <img
+            src="images/mole.png"
+            alt="Mole's Manor"
+            class="lightbox-trigger"
+            data-title="Mole's Manor"
+            data-description="Mole Manor is a massive multiplayer online game, where players can choose cartoon mole-avatars, decorate their virtual homes, adopt pets, and socialize with other players."
+          >
+        </section>
+          
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> My Game Journey</p>
+        <p>All game images and titles are property of their respective owners.</p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
